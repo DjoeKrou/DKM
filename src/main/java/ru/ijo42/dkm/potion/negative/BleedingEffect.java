@@ -31,7 +31,6 @@ public class BleedingEffect extends PotionBase {
         ret.add(new ItemStack(ObjectRegistry.BANDAGE));
         ret.add(new ItemStack(ObjectRegistry.BIG_BANDAGE));
         ret.add(new ItemStack(ObjectRegistry.ACHITILCELIN));
-        ret.add(new ItemStack(ObjectRegistry.EBA_BISTA));
         ret.add(new ItemStack(ObjectRegistry.N_91_B));
         ret.add(new ItemStack(ObjectRegistry.NIBUROXYDASE));
         ret.add(new ItemStack(ObjectRegistry.PS_0));
