@@ -26,7 +26,7 @@ public class AchitilcelinItem extends MedicamentBaseItem {
         super.onFoodEaten(stack, worldIn, player);
         if (!worldIn.isRemote) {
             PotionApplier.applyPotion(player, MobEffects.RESISTANCE, 50);
-            PotionApplier.applyPotion(player, MobEffects.HEALTH_BOOST, 50);
+            PotionApplier.applyPotion(player, MobEffects.REGENERATION, 50);
             PotionApplier.applyPotion(player, MobEffects.HUNGER, 200);
             PotionApplier.applyPotion(player, MobEffects.SLOWNESS, 10);
             new Timer(this + " Thread").schedule(new TimerTask() {
